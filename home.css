@@ -341,12 +341,7 @@ and (min-device-width : 1200px)
 /* social */
 .social
 {
-
-
-
-
-  vertical-align: middle;
-  position: relative;
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;

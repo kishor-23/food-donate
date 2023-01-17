@@ -341,10 +341,15 @@ and (min-device-width : 1200px)
 /* social */
 .social
 {
-  /* position: relative;*/
+    display: inline-block; 
+
+
+
+   vertical-align: middle;
+  /* position: relative;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;*/
 }
 .social li
 {

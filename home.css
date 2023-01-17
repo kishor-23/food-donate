@@ -341,7 +341,7 @@ and (min-device-width : 1200px)
 /* social */
 .social
 {
-  position: absolute;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;

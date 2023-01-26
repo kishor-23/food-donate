@@ -390,7 +390,7 @@ and (min-device-width : 1200px)
   /* transform: scale(.9); */
 
 }
-.photo .heading{
+.heading{
  font-size: 28px;
  text-align: center; 
  text-decoration: underline 5px;

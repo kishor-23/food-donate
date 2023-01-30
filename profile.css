@@ -87,9 +87,11 @@ th,td{
         height: auto;
       }
     .profilebox{
-        width: 320px;
+   
+          width: 350px;
         font-size: 14px;
         height: 600px;
+
 
         
     }

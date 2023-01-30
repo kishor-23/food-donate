@@ -28,10 +28,10 @@ include("login.php");
         </div>
         <nav class="nav-bar">
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="home.html">Home</a></li>
                 <li><a href="about.html" >About</a></li>
                 <li><a href="contact.html"  >Contact</a></li>
-                <li><a href="profile.html"  class="active">Profile</a></li>
+                <li><a href="profile.php"  class="active">Profile</a></li>
             </ul>
         </nav>
     </header>
@@ -51,9 +51,9 @@ include("login.php");
     <section class="cover" >
         <!-- <img src="profilecover1.jpg" alt="" width='100%' height='400'> -->
         </section>
-        <div class="profilebox">
+        <div class="profilebox" style="">
           
-            <p class="heading" style="text-align: left;font-size:30px"> <img src="" alt="" style="width:40px; height:  height: 25px;; padding-right: 10px; position: relative;" >Profile</p>
+            <p class="heading" style="text-align: left;font-size:30px;"> <img src="" alt="" style="width:40px; height:  height: 25px;; padding-right: 10px; position: relative;" >Profile</p>
 <!--             
             <img src="user.png" alt="" style="  width: 90px;
             height: 90px;
@@ -64,13 +64,14 @@ include("login.php");
             padding-top: 10px;
              /* border: 1px solid #06C167; */
             "> -->
-            <br>
+            <!-- <br> -->
               <!-- <p style="font-size: 28px;">welcome</p>
               <p style="color: #06C167;">username</p> -->
+              <br>
               <div class="info" style="padding-left:10px;">
-              <p>Name  :<?php echo"". $_SESSION['name'] ;?> </p>
-              <p>Email :<?php echo"". $_SESSION['email'] ;?> </p>
-              <p>gender  :<?php echo"". $_SESSION['gender'] ;?> </p>
+              <p style="font-family: 'Times New Roman', Times, serif;">Name  :<?php echo"". $_SESSION['name'] ;?> </p><br>
+              <p style="font-family: 'Times New Roman', Times, serif;">Email :<?php echo"". $_SESSION['email'] ;?> </p><br>
+              <p style="font-family: 'Times New Roman', Times, serif;">gender  :<?php echo"". $_SESSION['gender'] ;?> </p><br>
               
               <a href="#" style="float: left;margin-top: 6px ;border-radius:5px; background-color: #06C167; color: white;padding: ;padding-left: 10px;padding-right: 10px;">Edit</a>
               </div>
@@ -80,8 +81,9 @@ include("login.php");
             
             
          <hr>
-         <p class="heading">Your donations</p>
-         <img src="img/profilecover1.jpg" alt="" width='100%' height='auto'>
+         <br>
+         <p class="" style="font-family: 'Times New Roman', Times, serif; font-size: 20px;">Your donations</p><br>
+         <img src="profilecover1.jpg" alt="" width='100%' height='auto'>
    <div class="table-container">
          <!-- <p id="heading">donated</p> -->
          <div class="table-wrapper">

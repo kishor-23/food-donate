@@ -76,6 +76,28 @@
 		</div>
        
 	</div>
+	    <div class="help">
+    <p style="font-size: 23px; text-align: center; padding:10px;">Help & FAQs?</p>
+
+<button class="accordion">how to donate food ?</button>
+<div class="panel">
+  <p>1)click on <a href="fooddonate.html">donate</a> in home page </p>
+  <p>2)fill the details </p>
+  <p>3)click on submit</p>
+ <img src="mobile.jpg" alt="" width="100%">
+</div>
+
+<button class="accordion">How will my donation be used?</button>
+<div class="panel">
+  <p style="padding: 10px;"> Your donation will be used to support our mission and the various programs and initiatives that we have in place. Your donation will help us to continue providing assistance and support to those in need. You can find more information about our programs and initiatives on our website. If you have any specific questions or concerns, please feel free to contact us</p>
+</div>
+
+<button class="accordion">What should I do if my food donation is near or past its expiration date?</button>
+<div class="panel">
+  <p style="padding: 10px;">We appreciate your willingness to donate, but to ensure the safety of our clients we can't accept food that is near or past its expiration date. We recommend checking expiration dates before making a donation or contact us for further guidance</p>
+  
+</div>
+  </div>
   </div>
   <!-- <div class="img">
     <img src="chitti.jpg" alt="Robot cartoon" height="300" width="400">
@@ -85,5 +107,21 @@
 <script type="text/javascript" src="chatbot.js" ></script>
 <script type="text/javascript" src="constants.js" ></script>
 <script type="text/javascript" src="speech.js" ></script>
+	<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        } 
+      });
+    }
+    </script>
 
 </html>

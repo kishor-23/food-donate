@@ -42,6 +42,7 @@ include("login.php");
             navBar.classList.toggle("active");
         }
     </script>
+  
     
     
 
@@ -63,15 +64,16 @@ include("login.php");
             margin-right: auto;
             padding-top: 10px;
              /* border: 1px solid #06C167; */
-            "> -->
-            <!-- <br> -->
-              <!-- <p style="font-size: 28px;">welcome</p>
-              <p style="color: #06C167;">username</p> -->
+            ">
+            <br> -->
+              <!-- <p style="font-size: 28px;">welcome</p> -->
+              <!-- <p style="color: #06C167;">username</p> -->
               <br>
               <div class="info" style="padding-left:10px;">
-              <p style="font-family: 'Times New Roman', Times, serif;">Name  :<?php echo"". $_SESSION['name'] ;?> </p><br>
-              <p style="font-family: 'Times New Roman', Times, serif;">Email :<?php echo"". $_SESSION['email'] ;?> </p><br>
-              <p style="font-family: 'Times New Roman', Times, serif;">gender  :<?php echo"". $_SESSION['gender'] ;?> </p><br>
+              <p style="">Name  :<?php echo"". $_SESSION['name'] ;?> </p><br>
+              <p style="">Email :<?php echo"". $_SESSION['email'] ;?> </p><br>
+              <p style="">gender:<?php echo"". $_SESSION['gender'] ;?> </p><br>
+              <!-- <p style="font-family: 'Times New Roman', Times, serif;">gender  :<?php echo"". $_SESSION['gender'] ;?> </p><br> -->
               
               <a href="#" style="float: left;margin-top: 6px ;border-radius:5px; background-color: #06C167; color: white;padding: ;padding-left: 10px;padding-right: 10px;">Edit</a>
               </div>
@@ -82,8 +84,9 @@ include("login.php");
             
          <hr>
          <br>
-         <p class="" style="font-family: 'Times New Roman', Times, serif; font-size: 20px;">Your donations</p><br>
-         <img src="img/profilecover1.jpg" alt="" width='100%' height='auto'>
+         <p class="heading">Your donations</p>
+         <!-- <p class="" style="font-family: 'Times New Roman', Times, serif; font-size: 20px;">Your donations</p><br> -->
+         <!-- <img src="profilecover1.jpg" alt="" width='100%' height='auto'> -->
    <div class="table-container">
          <!-- <p id="heading">donated</p> -->
          <div class="table-wrapper">

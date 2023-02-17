@@ -318,6 +318,17 @@ and (min-device-width : 1200px)
   .content{
     /* padding: 10px; */
   }
+  .deli .para{
+    font-size: 23px; 
+    text-align: center;
+    
+
+  }
+  .deli img{
+   width: 100%;
+   height: 100%;
+  }
+  
   
   .footer {
     font-size: 14px;

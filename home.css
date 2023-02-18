@@ -398,7 +398,7 @@ and (min-device-width : 1200px)
   transition: 0.5s all  ease-in-out;
 }
 .wrapper img:hover{
-  /* transform: scale(.9); */
+   transform: scale(.9);
 
 }
 .heading{

@@ -313,6 +313,10 @@ and (min-device-width : 1200px)
   font-weight: normal;
   margin: 0;
 }
+.deli .para{
+  font-size: 30px;
+  text-align: center;
+}
 
 @media (max-width: 767px) {
   .content{

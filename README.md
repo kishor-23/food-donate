@@ -11,5 +11,5 @@
 <h2>Mobile Screen friendly website.</h2>
 <img src="img/mobile.jpg" >
 <h2>chatbot support</h2>
-<img src"img/chatbotsupport.jpg">
+<img src="img/chatbotsupport.jpg">
 

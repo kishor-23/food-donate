@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="loginstyle.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+   </head>
+
+<body>
+   <div class="container">
+    <div class="regform">
+        
+        <form action="login.php" method="post">
+       
+         <p class="logo" style="">Food <b style="color:#06C167; ">Donate</b></p>
+         <p id="heading" style="padding-left: 1px;"> Welcome  back ! <img src="" alt=""> </p>
+         
+         <div class="input">
+            <input type="email" placeholder="Email address" name="email">
+         </div>
+         <div class="password">
+            <input type="password" placeholder="Password" name="password" id="password">
+         
+            <!-- <i class="fa fa-eye-slash" aria-hidden="true" id="showpassword"></i> -->
+            <i class="bi bi-eye-slash" id="showpassword"></i>
+         </div>
+
+
+         <div class="btn">
+            <button type="submit" name="sign"> Sign in</button>
+         </div>
+         <div class="signin-up">
+            <p>Don't have an account? <a href="loginindex.html">Register</a></p>
+         </div>
+        </form>
+      </div>
+      
+
+   </div>
+   <script src="login.js"></script>
+</body>
+</html>
